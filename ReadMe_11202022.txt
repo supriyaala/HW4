@@ -1,0 +1,20 @@
+# HW 2: Submission
+
+## HW purpose:
+To write a C program to search using system calls for files and 
+directories
+
+## To compile:
+gcc -O queue.c queue_driver.c jobs.c
+
+## To execute:
+make
+./scheduler
+submit sleep 20
+subit sleep 10
+
+showjobs
+
+##credits:
+https://man7.org/linux/man-pages/man1/jobs.1p.html
+https://man7.org/linux/man-pages/man1/time.1.html
